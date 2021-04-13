@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="test">
     hello mp vue
   </div>
 </template>
@@ -19,6 +19,9 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang='scss' scoped>
+$color: red;
+.test{
+  color: $color;
+}
 </style>
