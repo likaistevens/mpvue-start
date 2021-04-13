@@ -1,12 +1,18 @@
 <template>
   <div class="test">
-    hello mp vue
+    hello mp vue2
+    <Icon src="/static/icons/svg/home.svg" size="60" color="#409EFF" />
   </div>
 </template>
 
 <script>
+import Icon from '../../components/index.vue'
+
 export default {
   name: '',
+  components: {
+    Icon
+  },
   data () {
     return {
     }
